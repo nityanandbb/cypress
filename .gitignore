@@ -1,0 +1,40 @@
+# Cypress related files
+cypress/videos/
+cypress/screenshots/
+
+# Cypress configuration files (if not customized)
+cypress.json
+
+# Ignore node_modules
+node_modules/
+
+# Ignore npm debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables file (if any)
+.env
+.env.local
+.env.test
+.env.production
+
+# Ignore output of Cypress reports (if any)
+reports/
+
+# Ignore IDE/editor specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore lock files
+package-lock.json
+yarn.lock

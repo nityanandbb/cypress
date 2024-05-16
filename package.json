@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "cypress": "^13.9.0"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run:prod": "cypress run --env environment=prod",
+    "cypress:run:stage": "cypress run --env environment=stage",
+    "cypress:run:dev": "cypress run --env environment=dev"
+  }
+}
